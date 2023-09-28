@@ -1,10 +1,10 @@
 ## Deploying Nodejs App
 
 1. Create instance on AWS called this "tech254_wafa_testapp". When creating the instance,Select an existing group instead of creating one.
-![](C:\Users\wafam\Documents\Tech_254\Linux\network_settings.png)
+![](network_settings.png)
 2. Click into the Instance and scroll down to **Security**
 3. Click onto the "Security Group" link shown below to edit the Inbound Rules
-![](C:\Users\wafam\Documents\Tech_254\Linux\security_group_link.png)
+![](security_group_link.png)
 4. Click **Edit Inbound Rules**
 5. Add Rule > Custom TCP 
 6. Port Range = `3000`
@@ -43,3 +43,8 @@ npm install
 ```
 node app.js
 ```
+### To check its working
+1. go to AWS and get the public IP address. 
+2. copy and paste into google url and add `:3000` at the end
+3. Should display the sparta test app logo as shown below
+![](working_fine.png)
