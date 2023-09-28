@@ -23,6 +23,10 @@ NOTE: this will take 5 minutes to copy all the files
 13. When files have finished copying, connect te Instances.
 14. run command `cd` to take you to home directory 
 15. Run command `cd .ssh` to be inside the ssh folder
+
+On AWS, the page looks like this. Follow the steps
+![](connect_instance.png)
+
 14. Run command `chmod 400 tech254.pem`
 15. Run Command `ssh -i "tech254.pem" ubuntu@ec2-34-245-219-171.eu-west-1.compute.amazonaws.com`
 16. Should be connected to instance
