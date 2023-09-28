@@ -55,4 +55,19 @@ sudo systemctl enable nginx
 - `kill -15` - kills processing running
 - `kill -9` or `kill -kill` - forceful kill. Big red button
 - `chmod` - change permissions on file or folder
-- 
+- `ls -l` 
+
+
+#### Nodejs
+1. front page
+2. posts page
+3. what does our instance require in order to run the app
+   4. Linux vm running Ubuntu 18.04
+   5. Web Server
+   6. Right Version of Nodejs - 12.x
+   7. The app code itself
+   8. In the app folder, we need to run 2 commands:
+      9. npm install
+      10. node app.js
+
+
