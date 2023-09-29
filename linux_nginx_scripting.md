@@ -6,7 +6,7 @@
 - `mv <filename> <what folder to send to>` - move the file to another folder
 
 
-### Scripting
+### Scripting and deploying app 
 1. `nano provision.sh - creating script with shell extension
 2. Copy and paste below
     
@@ -30,7 +30,7 @@ sudo systemctl restart nginx
 sudo systemctl enable nginx
 ```
 3. `control + X, Y`, save file and exit 
-4. `sudo +x nginx` - 
+4. `sudo chmod +x provision.sh` - 
 4. `./provision.sh` - run file 
 5. `sudo systemctl status nginx` - check status is it is running 
 6. Should get greet dot and 'Active'
