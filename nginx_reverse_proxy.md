@@ -1,5 +1,6 @@
 ### nginx Reverse Proxy
 
+## 1. Setup nginx proxy defaul
 ##### Follow steps
 1. Run command `apt-get update`
 2. `apt-get upgrade`
@@ -59,7 +60,7 @@ sudo systemctl status nginx
 - nginx default config =  nginx.conf
 
 
-#### Install reverse nginx
+## 2. Install reverse nginx
 
 1. Install nginx
 ```sudo apt-get update```
