@@ -35,6 +35,8 @@ sudo systemctl enable nginx
 5. `sudo systemctl status nginx` - check status is it is running 
 6. Should get greet dot and 'Active'
 
+To check it has worked, copy and paste public IP address, and it should say "Welcome to nginx"
+
 
 ### Linux Notes
 - `ps` - processes running. Basic 
